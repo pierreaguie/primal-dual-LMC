@@ -14,8 +14,8 @@ parser = ArgumentParser(description="Script that samples from a 2D truncated sta
 
 
 parser.add_argument("--eta", type=float, default=5e-3, help= "Learning rate for the PD-LMC algorithm")
-parser.add_argument("--n_burnin", type=int, default=10000, help= "Number of burn-in iterations for the PD-LMC algorithm")
-parser.add_argument("--n_samples", type = int, default = 10000, help = "Number of samples to generate")
+parser.add_argument("--n_burnin", type=int, default=50000, help= "Number of burn-in iterations for the PD-LMC algorithm")
+parser.add_argument("--n_samples", type = int, default = 50000, help = "Number of samples to generate")
 parser.add_argument("--m1", type = float, default=2, help= "First component of the mean vector of the base gaussian distribution")
 parser.add_argument("--m2", type = float, default=2, help= "Second component of the mean vector of the base gaussian distribution")
 parser.add_argument("--C11", type = float, default=0.5, help= "Length of the first semi-axis of the ellipsoid support")
