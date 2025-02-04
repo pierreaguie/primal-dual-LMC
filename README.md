@@ -2,7 +2,7 @@
 
 Implementation of the Primal-Dual Langevin Monte Carlo algorithm introduced in [Chamon et al. "Constrained Sampling with Primal-Dual Langevin Monte Carlo"](https://arxiv.org/abs/2411.00568). This repository aims to reproduce the 2D truncated Gaussian experiment presented in the original paper, in the case where the support of the distirbution is an axis-aligned ellipse.
 
-## Running the experiment
+## Usage
 
 To reproduce the experiment, run the following command
 
