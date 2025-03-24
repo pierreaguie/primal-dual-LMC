@@ -10,7 +10,8 @@ To reproduce the experiment, run the following command
 python src/main.py
 ```
 
-This command should generate a similar image as this one:
+This command should generate a similar image to this one:
+
 ![image](figures/generated_samples.png)
 
 ## Repository structure
